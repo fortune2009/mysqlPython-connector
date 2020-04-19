@@ -10,7 +10,7 @@ def connect_insert():
         conn = insql.connect(host="localhost",
                              database="demo",
                              user="oscar",
-                             password="ochiabuto2009",
+                             password="password",
                              auth_plugin="mysql_native_password")
         
         print("Connecting in progress")
